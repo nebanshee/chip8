@@ -1,5 +1,5 @@
 # CHIP-8 Emulator 
-* Solovev Arsenii, 5117*
+ _Solovev Arsenii, 5117_
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend nec augue et bibendum. Nulla in augue eu nulla interdum semper. Cras imperdiet justo nibh, sit amet egestas ipsum venenatis ut. Phasellus ac dui in ligula auctor molestie nec eu neque. Vestibulum accumsan nisi ut purus congue, at efficitur mi mollis. Duis neque mauris, iaculis eu scelerisque in, sodales vel ligula. Fusce at turpis sit amet velit posuere maximus. Etiam massa nisl, aliquam a lacus non, consequat vestibulum augue. Donec sollicitudin a justo eget maximus. Vestibulum a odio ut nibh venenatis ullamcorper. Praesent vitae venenatis risus, in venenatis arcu. Mauris ut dapibus odio. Nullam in massa lectus.
