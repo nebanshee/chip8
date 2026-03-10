@@ -10,5 +10,9 @@
 
 int main() {
 	printf("Hello, Wolrld!\n");
+	typedef struct Chip8State{
+		int a;
+		int b;
+	};
 	return 0;
 }
