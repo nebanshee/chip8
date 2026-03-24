@@ -9,9 +9,9 @@
 #define CHIP8_KEY_COUNT		16
 
 int main() {
-	int lab_7_task_4();
-	int lab_7_task_5();
-	int lab_7_task_6();
+	 lab_7_task_4();
+	 lab_7_task_5();
+	 lab_7_task_6();
 	printf("Hello, Wolrld!\n");
 	typedef struct Chip8State{
 		int a;
@@ -55,8 +55,6 @@ void lab_7_task_4(){
 		for (i = 0; i < 15; i++) {
 			printf("%d ", A[i]);
 		}
-
-		return 0;
 	}
 void lab_7_task_5(){
 		int A[15];
@@ -79,8 +77,6 @@ void lab_7_task_5(){
 		printf("Положительных: %d\n", bolshe_0);
 		printf("Отрицательных: %d\n", menshe_0);
 		printf("Нулевых: %d\n", nolik);
-
-		return 0;
 	}
 void lab_7_task_6(){
 		int A[4][4];
@@ -99,7 +95,5 @@ void lab_7_task_6(){
 		}
 
 		printf("Количество элементов больше нуля: %d\n", count);
-
-		return 0;
 	}
 
