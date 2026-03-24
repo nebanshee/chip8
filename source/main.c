@@ -86,7 +86,7 @@ void lab_7_task_6(){
 		}
 
 		printf("Количество элементов больше нуля: %d\n", count);
-	}
+}
 void lab_9_task_3(){
 	char text[1000];
 
@@ -142,9 +142,5 @@ int main() {
 	lab_9_task_3();
 	lab_9_task_10();
 	printf("Hello, Wolrld!\n");
-	typedef struct Chip8State{
-		int a;
-		int b;
-	}
 	return 0;
 }
