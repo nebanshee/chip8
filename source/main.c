@@ -135,7 +135,6 @@ void lab_9_task_10(){
 
 		printf("Количество слов: %d\n", countWords);
 	}
-}
 int main() {
 	lab_7_task_4();
 	lab_7_task_5();
@@ -146,6 +145,6 @@ int main() {
 	typedef struct Chip8State{
 		int a;
 		int b;
-	};
+	}
 	return 0;
 }
