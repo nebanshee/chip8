@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
+#include <ctype.h>
+#include <string.h>
 
 #define CHIP8_MEMORY_SIZE	4096
 #define CHIP8_DISPLAY_WIDTH	64
@@ -85,10 +87,61 @@ void lab_7_task_6(){
 
 		printf("Количество элементов больше нуля: %d\n", count);
 	}
+void lab_9_task_3(){
+	char text[1000];
+
+	printf("Введите текст: ");
+	fgets(text, sizeof(text), stdin);
+
+	for (int i = 0; text[i] != '\0'; i++) {
+		if (isalpha(text[i])) {
+			int pos = tolower(text[i]) - 'a' + 1;
+			printf("%d ", pos);
+		}
+		else {
+			printf("%c", text[i]);
+		}
+	}
+}
+void lab_9_task_10(){
+		char text[1000];
+		char symbol;
+		int k;
+
+		printf("Введите строку: ");
+		fgets(text, sizeof(text), stdin);
+
+		printf("Введите символ: ");
+		scanf(" %c", &symbol);
+
+		printf("Введите k: ");
+		scanf("%d", &k);
+
+		int countWords = 0;
+		int countSymbol = 0;
+
+		for (int i = 0; i <= strlen(text); i++) {
+			if (text[i] == symbol) {
+				countSymbol++;
+			}
+
+			if (text[i] == ' ' || text[i] == '\0' || text[i] == '\n') {
+				if (countSymbol == k) {
+					countWords++;
+				}
+				countSymbol = 0;
+			}
+		}
+
+		printf("Количество слов: %d\n", countWords);
+	}
+}
 int main() {
 	lab_7_task_4();
 	lab_7_task_5();
 	lab_7_task_6();
+	lab_9_task_3();
+	lab_9_task_10();
 	printf("Hello, Wolrld!\n");
 	typedef struct Chip8State{
 		int a;
