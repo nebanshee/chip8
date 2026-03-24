@@ -8,17 +8,6 @@
 #define STACK_DEPTH		16
 #define CHIP8_KEY_COUNT		16
 
-int main() {
-	 lab_7_task_4();
-	 lab_7_task_5();
-	 lab_7_task_6();
-	printf("Hello, Wolrld!\n");
-	typedef struct Chip8State{
-		int a;
-		int b;
-	};
-	return 0;
-}
 void lab_7_task_4(){
 		int A[15];
 		int i;
@@ -96,4 +85,14 @@ void lab_7_task_6(){
 
 		printf("Количество элементов больше нуля: %d\n", count);
 	}
-
+int main() {
+	lab_7_task_4();
+	lab_7_task_5();
+	lab_7_task_6();
+	printf("Hello, Wolrld!\n");
+	typedef struct Chip8State{
+		int a;
+		int b;
+	};
+	return 0;
+}
